@@ -23,8 +23,8 @@ long somaCondicao = 0;
 
 // ---------- Limiar dia/noite (valores medidos na bancada) ----------
 // Ambiente ~330, LDR coberto = 0, lanterna ~3500 -> a leitura DESCE no escuro
-const int LIMIAR    = 150;   // meio do caminho entre escuro (0) e ambiente (~330)
-const int HISTERESE = 50;    // entra na noite abaixo de 100, volta ao dia acima de 200
+const int LIMIAR    = 140;   // meio do caminho entre escuro (0) e ambiente (~330)
+const int HISTERESE = 60;    // entra na noite abaixo de 100, volta ao dia acima de 200
 const int CONFIRMACOES = 5;  // 5 leituras seguidas (1 s) para trocar de modo
 
 // ---------- Tempos do semáforo ----------
